@@ -8,7 +8,6 @@
     "deploy": "npm start --prefix API ",
     "deploy-cluster": " npm run cluster --prefix API",
     "API": "npm run watch --prefix API",
-    "client": "npm start --prefix client",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
