@@ -55,6 +55,6 @@ app.use("/api/carts", cartRoute);
 app.use("/api/orders", orderRoute);
 app.use("/api/checkout", stripeRoute);
 
-server.listen(6000, () => {
+server.listen(7000, () => {
   console.log("Backend server is running!");
 });
