@@ -4,6 +4,10 @@
   "description": "This e-commerce platform is a testament to my expertise. The platform integrates custom authentication and user registration, real-time updates, and a secure checkout process payment, leveraging the latest technologies to ensure a smooth and efficient user experience.",
   "main": "index.js",
   "scripts": {
+    "postinstall": "cd API && npm install && cd ..",
+    "deploy": "npm start --prefix API ",
+    "deploy-cluster": " npm run cluster --prefix API",
+    "API": "npm run watch --prefix API",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,6 +17,7 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongoose": "^7.0.2",
+    "nginx": "^1.0.8",
     "nodemon": "^2.0.21"
   }
 }
